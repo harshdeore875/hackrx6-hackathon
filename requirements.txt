@@ -1,34 +1,35 @@
 # FastAPI and Server Dependencies
-fastapi==0.88.0
-uvicorn==0.20.0
-pydantic==1.10.5
-python-multipart==0.0.6
-python-jose==3.3.0
-passlib==1.7.4
-python-dotenv==0.21.1
-requests==2.28.2
+fastapi
+uvicorn
+pydantic
+python-multipart
+python-jose
+passlib
+python-dotenv
+requests
 
 # PDF Processing
-PyMuPDF==1.21.1
+PyMuPDF
 
 # LangChain and AI Dependencies
-langchain==0.0.200
-langchain-google-genai==0.0.5
-langchain-community==0.0.10
-google-generativeai==0.2.0
-google-cloud-aiplatform>=1.25.0
+langchain
+langchain-google-genai
+langchain-community
+google-generativeai
+google-cloud-aiplatform
 
 # Vector Store Dependencies
-pinecone==2.2.1
-typing-extensions==4.5.0
-typing-inspect==0.8.0
-numpy==1.23.5
+pinecone
+typing-extensions
+typing-inspect
+numpy
 
 # CORS and Security
-bcrypt==4.0.1
-python-jose[cryptography]==3.3.0
+bcrypt
+python-jose[cryptography]
 
 # Development and Testing
-pytest==7.4.0
-httpx==0.24.1
-pytest-asyncio==0.21.1
+pytest
+httpx
+
+pytest-asyncio
