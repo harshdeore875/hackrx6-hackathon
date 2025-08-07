@@ -1,17 +1,16 @@
-fastapi>=0.104.1
-uvicorn>=0.24.0
-pydantic>=2.4.2
-python-dotenv>=1.0.0
-requests>=2.31.0
-PyMuPDF>=1.23.6
-python-multipart>=0.0.6
-langchain>=0.0.330
-langchain-google-genai>=0.0.5
-pinecone-client>=2.2.4
-typing-extensions>=4.5.0
-typing-inspect>=0.8.0
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.0
+requests
+PyMuPDF
+python-dotenv
+langchain>=0.2.1
 langchain-community>=0.0.36
-pinecone>=2.2.1 
-numpy>=1.24.0
+langchain-pinecone
+pinecone>=3.0.0
+langchain-google-genai
+openai
+
+
 
 
