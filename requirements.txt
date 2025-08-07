@@ -17,6 +17,7 @@ langchain-google-genai
 langchain-community
 google-generativeai
 google-cloud-aiplatform
+langchain-pinecone
 
 # Vector Store Dependencies
 pinecone
@@ -33,3 +34,4 @@ pytest
 httpx
 
 pytest-asyncio
+
