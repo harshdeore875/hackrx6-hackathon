@@ -183,7 +183,7 @@ def process_document(document_path: str) -> str:
         if doc:
             doc.close()
 
-@app.post("v1/hackrx/run")
+@app.post("/v1/hackrx/run")
 async def process_questions(
     request: QuestionRequest,
     credentials: HTTPAuthorizationCredentials = Depends(verify_api_key)
@@ -224,4 +224,5 @@ async def process_questions(
                 "error": str(e)
             }
         )
+
 
